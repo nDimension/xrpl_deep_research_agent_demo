@@ -1,0 +1,8 @@
+# Python 3.12 required (xrpl-py 5.x + x402-xrpl are installed/tested there).
+xrpl-py==5.0.0
+x402-xrpl==0.1.4
+fastapi
+uvicorn
+requests
+anthropic
+openai
