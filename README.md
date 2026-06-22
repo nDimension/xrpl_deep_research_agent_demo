@@ -18,8 +18,8 @@ added latency — and an LLM-synthesized answer from each run, so you can read h
 much thinner the abstract-only answer is.
 
 ```
-Full-text access expanded : 0 -> 4 sources (inf)
-Cost of that expansion    : 0.005700 XRP, 14.3s of added latency
+Full-text access expanded : 0 -> 1 sources (inf)
+Cost of that expansion    : 0.001000 XRP, 13.0s of added latency
 ```
 
 ---
@@ -114,7 +114,7 @@ py -3.12 research_agent.py "How does the XRP Ledger stay safe under Byzantine va
 Useful flags:
 
 - `--llm claude|openai` — pick the backend (omit to be prompted).
-- `--max-spend 0.01` — cap total XRP spend in XRP (omit to be prompted).
+- `--max-spend 0.01` — cap total spend, in XRP (omit to be prompted).
 - `--provider http://host:port` — point at a different provider host.
 - Omit the question to use the built-in default.
 
