@@ -124,6 +124,12 @@ Captured from a real run (`--llm openai --max-spend 0.01`) against the mock
 provider. Note how the abstract-only answer can only say "sufficient overlap,"
 while the paid full-text answer recovers the actual thresholds:
 
+> **What's real here:** the wallet, the payment, and the XRPL testnet
+> settlement. **What's not:** the "papers" and their findings are fictional
+> demo content from the mock catalogue in `journal_server.py` — they are *not*
+> real research and should not be cited. The point of the demo is the payment
+> loop and the access gap it closes, not the paper contents.
+
 ```
 Buyer wallet : rGeNNvUHDXiX6poC65G6KWMTRv5mi3BzHV
 Testnet balance: 99.995960 XRP
@@ -168,7 +174,7 @@ Full-text access expanded : 0 -> 1 sources (inf)
 Cost of that expansion    : 0.001000 XRP, 13.0s of added latency
 ```
 
-**Answer — abstract-only agent (Run A):**
+**Answer — abstract-only agent (Run A)** *(synthesized from the fictional mock papers):*
 
 > The XRP Ledger stays safe under Byzantine validators by using a **partially
 > trusted validator model** in which each participant relies on a **Unique Node
@@ -177,7 +183,7 @@ Cost of that expansion    : 0.001000 XRP, 13.0s of added latency
 > abstract-only, the exact overlap requirements, Byzantine fault thresholds, and
 > proof mechanisms are not available here.
 
-**Answer — paying agent, full text (Run B):**
+**Answer — paying agent, full text (Run B)** *(synthesized from the fictional mock papers):*
 
 > [...] Validators proceed in **rounds**, iteratively converging by raising the
 > required support threshold from **50% up to 80%**. Safety requires pairwise
